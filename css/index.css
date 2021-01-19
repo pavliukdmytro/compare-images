@@ -1,0 +1,28 @@
+.yin-yang{
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.yin-yang__photo{
+    display: block;
+    margin-left: auto;
+    max-width: 100%;
+}
+.yin-yang__photo-top{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: auto 100%;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    right: 0;
+}
+.yin-yang__control{
+    width: 5px;
+    height: 100%;
+    background-color: black;
+    transform: translateX(-100%);
+}
