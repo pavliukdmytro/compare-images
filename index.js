@@ -26,11 +26,9 @@
 
         if ('ontouchstart' in window) {
             control.addEventListener('touchstart', function (e) {
-                console.log(1);
                 window.addEventListener('touchmove', handlerMousemove);
             });
             window.addEventListener('touchend', function () {
-                console.log(2);
                 window.removeEventListener('touchmove', handlerMousemove);
             });
         } else {
